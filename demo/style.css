@@ -1,0 +1,13 @@
+body{
+	margin:0px;
+}
+
+#Container{
+	margin:10px;
+	width:960px;
+	background-color:#eee;
+	color:#333;
+}
+#Container p{
+	padding:10px;
+}

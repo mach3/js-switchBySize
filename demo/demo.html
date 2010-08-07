@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	<script type="text/javascript" src="../switchBySize.js"></script>
+	<link rel="stylesheet" href="style.css" id="style" />
+</head>
+<body>
+
+<div id="Container">
+	<p>DEMO : StyleChange</p>
+</div>
+
+<script type="text/javascript">
+$("#style").switchBySize([
+	{ rule:">=960", css:"style.css" },
+	{ rule:"<960", css:"style-narrow.css" }
+]);
+</script>
+
+</body>
+</html>
